@@ -1,5 +1,5 @@
 provider "google" {
-  project     = "YOUR_PROJECT_ID"
+  project     = "dev-byos"
   region      = "us-central1"
   zone        = "us-central1-c"
 }
