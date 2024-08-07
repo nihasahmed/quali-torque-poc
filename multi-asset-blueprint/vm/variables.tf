@@ -39,3 +39,13 @@ variable "vm_image_name" {
   default     = "ubuntu-os-cloud/ubuntu-2004-focal-v20220712"
 }
 
+variable "vpc_self_link" {
+  type        = string
+  description = "URI of VPC"
+}
+
+variable "subnet_self_link" {
+  type        = string
+  description = "URI of subnet with the VPC"
+}
+

@@ -14,13 +14,3 @@ variable "vpc_name" {
   type        = string
   description = "Name of VPC"
 }
-
-variable "vpc_self_link" {
-  type        = string
-  description = "URI of VPC"
-}
-
-variable "subnet_self_link" {
-  type        = string
-  description = "URI of subnet with the VPC"
-}
